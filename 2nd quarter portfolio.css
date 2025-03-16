@@ -1,0 +1,44 @@
+body{background-image:url("ahs.jpg");
+background-repeat:no-repeat;
+background-size:100%;
+}
+
+p{font-family:BrushScriptMT; 
+color:purple; 
+text-align:center;
+font-size:25px;
+font-weight: bold;
+}
+
+a:link {
+color: lime;
+}
+
+a:visited {
+color: yellow;
+}
+
+a:hover {
+color: pink;
+}
+
+a:active {
+color: blue;
+}
+
+h1{font-family:TimesNewRoman; 
+color:blue; 
+text-align:center;
+}
+
+table, th, td, tr {
+border: 1px solid;
+width: 1355px;
+height: 70px;
+border-collapse: collapse;
+text-align: center;
+}
+
+table, th, td, tr:hover{background-color:coral;}
+}
+
