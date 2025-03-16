@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>2nd QT Portfolio</title>
+  <link rel="stylesheet" href="2nd quarter portfolio.css" type="text/css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #f0f0f0; /* Light background for readability */
+      color: #333; /* Text color */
+      height: 100vh;
+    }
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 20px auto;
+      text-align: center;
+      background: #ffffff;
+      border: 1px solid #ddd;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    td {
+      padding: 15px;
+      font-size: 18px;
+      border: 1px solid #ddd;
+      transition: background 0.3s;
+    }
+    td:hover {
+      background-color: #f4f4f4;
+    }
+    a {
+      text-decoration: none;
+      color: #0066cc;
+      font-weight: bold;
+    }
+    a:hover {
+      color: #003366;
+    }
+    .back-to-entrance {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #333;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+      font-size: 16px;
+      font-family: Arial, sans-serif;
+      transition: background 0.3s, transform 0.3s;
+    }
+    .back-to-entrance:hover {
+      background: #555;
+      transform: scale(1.1);
+    }
+    p {
+      max-width: 80%;
+      text-align: center;
+      margin: 20px auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Second Quarter Portfolio</h1>
+  <table>
+    <tr> 
+      <td><a href="Lessons.html">Lessons in the Second Quarter</a></td>
+      <td><a href="Reflection.html">How Well Did I Do?</a></td>
+      <td><a href="Activities.html">Activities in the Second Quarter</a></td>
+    </tr>
+  </table>
+  <a href="E-Portfolio.html">1st Quarter Portfolio Link</a>
+  <br><br>
+  <p>This quarter we tackled CSS, which was easier... I think?</p>
+  <a href="4th quarter portfolio.html" class="back-to-entrance">Back to Entrance Gate</a> <!-- Creative link -->
+</body>
+</html>
